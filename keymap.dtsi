@@ -31,8 +31,8 @@
 // which lets you type Unicode characters via hexadecimal codepoints.
 //
 #ifndef OPERATING_SYSTEM
-#define OPERATING_SYSTEM 'L' // linux
-//#define OPERATING_SYSTEM 'M' // macos
+//#define OPERATING_SYSTEM 'L' // linux
+#define OPERATING_SYSTEM 'M' // macos
 //#define OPERATING_SYSTEM 'W' // windows
 #endif
 #if OPERATING_SYSTEM == 'M'
