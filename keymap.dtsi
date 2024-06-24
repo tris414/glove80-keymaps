@@ -31,8 +31,8 @@
 // which lets you type Unicode characters via hexadecimal codepoints.
 //
 #ifndef OPERATING_SYSTEM
-//#define OPERATING_SYSTEM 'L' // linux
-#define OPERATING_SYSTEM 'M' // macos
+#define OPERATING_SYSTEM 'L' // linux
+//#define OPERATING_SYSTEM 'M' // macos
 //#define OPERATING_SYSTEM 'W' // windows
 #endif
 #if OPERATING_SYSTEM == 'M'
@@ -187,45 +187,45 @@
 #define KEY_RH_C6R2 BSLH
 #define KEY_LH_C6R3 GRAVE
 #define KEY_LH_C5R3 B
-#define KEY_LH_C4R3 Y
-#define KEY_LH_C3R3 O
-#define KEY_LH_C2R3 U
-#define KEY_LH_C1R3 SQT
-#define KEY_RH_C1R3 SEMI
-#define KEY_RH_C2R3 L
-#define KEY_RH_C3R3 D
-#define KEY_RH_C4R3 W
-#define KEY_RH_C5R3 V
-#define KEY_RH_C6R3 Z
+#define KEY_LH_C4R3 L
+#define KEY_LH_C3R3 D
+#define KEY_LH_C2R3 C
+#define KEY_LH_C1R3 V
+#define KEY_RH_C1R3 J
+#define KEY_RH_C2R3 Y
+#define KEY_RH_C3R3 O
+#define KEY_RH_C4R3 U
+#define KEY_RH_C5R3 COMMA
+#define KEY_RH_C6R3 MINUS
 #define KEY_LH_C6R4 0
-#define KEY_LH_C5R4 C
-#define KEY_LH_C4R4 I
-#define KEY_LH_C3R4 E
-#define KEY_LH_C2R4 A
-#define KEY_LH_C1R4 COMMA
-#define KEY_RH_C1R4 DOT
+#define KEY_LH_C5R4 N
+#define KEY_LH_C4R4 R
+#define KEY_LH_C3R4 T
+#define KEY_LH_C2R4 S
+#define KEY_LH_C1R4 G
+#define KEY_RH_C1R4 P
 #define KEY_RH_C2R4 H
-#define KEY_RH_C3R4 T
-#define KEY_RH_C4R4 S
-#define KEY_RH_C5R4 N
-#define KEY_RH_C6R4 Q
+#define KEY_RH_C3R4 A
+#define KEY_RH_C4R4 E
+#define KEY_RH_C5R4 I
+#define KEY_RH_C6R4 FSLH
 #define KEY_LH_C6R5 LSHFT
-#define KEY_LH_C5R5 G
-#define KEY_LH_C4R5 X
-#define KEY_LH_C3R5 J
-#define KEY_LH_C2R5 K
-#define KEY_LH_C1R5 MINUS
+#define KEY_LH_C5R5 X
+#define KEY_LH_C4R5 Q
+#define KEY_LH_C3R5 M
+#define KEY_LH_C2R5 W
+#define KEY_LH_C1R5 Z
 #define KEY_LH_T1 ESC
 #define KEY_LH_T2 UP
 #define KEY_LH_T3 DOWN
 #define KEY_RH_T3 LEFT
 #define KEY_RH_T2 RIGHT
 #define KEY_RH_T1 ENTER
-#define KEY_RH_C1R5 FSLH
-#define KEY_RH_C2R5 R
-#define KEY_RH_C3R5 M
-#define KEY_RH_C4R5 F
-#define KEY_RH_C5R5 P
+#define KEY_RH_C1R5 K
+#define KEY_RH_C2R5 F
+#define KEY_RH_C3R5 SQT
+#define KEY_RH_C4R5 SEMI
+#define KEY_RH_C5R5 DOT
 #define KEY_RH_C6R5 RSHFT
 #define KEY_LH_C6R6 0
 #define KEY_LH_C5R6 HOME
